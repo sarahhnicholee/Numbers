@@ -1,6 +1,3 @@
-//Prompt the user for a list of integers separated by commas
-const str = prompt("enter some numbers, like this", "1,2,3,3,5,9");
-
 // Complete the Numbers class below
 // the constructor has already been provided
 class Numbers {
@@ -37,6 +34,9 @@ class Numbers {
     //return the count of a given number
   }
 }
+
+//Prompt the user for a list of integers separated by commas
+const str = prompt("enter some numbers, like this", "1,2,3,3,5,9");
 
 //create an instance of numbers
 const n1 = new Numbers(str);
